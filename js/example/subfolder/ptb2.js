@@ -37,14 +37,14 @@ function equation(a, b, c) {
 
 
 }
-	// try{
-	// 	let [x1, x2] = equation('a',2,3)
-	// 	console.log('x1 = ', x1)
-	// 	console.log('x1 = ', x2)
-	// }catch(error){
-	// 	console.log(error.message)
-	// }
+	try{
+		let [x1, x2] = equation(2,5,3)
+		console.log('x1 = ', x1)
+		console.log('x1 = ', x2)
+	}catch(error){
+		console.log(error.message)
+	}
 
-module.exports = equation; 
+// module.exports = equation; 
 // module.exports.pt2 = equation;
 // module.exports.pt3 = equation2;
