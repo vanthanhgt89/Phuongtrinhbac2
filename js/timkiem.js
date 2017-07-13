@@ -51,6 +51,7 @@ function filterPath(sourcePath) {
         } else {
           spacing = spacing.concat(spacing)
           filterPath(`${sourcePath}/${file}`)
+          spacing = spacing.replace(spacing,'   ')
         }
       }
     });

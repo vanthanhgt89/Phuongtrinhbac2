@@ -1,4 +1,4 @@
 const Printf = require('./Printf.js').Printf
 
-let print = new Printf('stringExample')
-print.print()
+let print = new Printf()
+print.print('/Users/vanthanh/Desktop/example/js')
