@@ -6,6 +6,7 @@ $('#draw').on('click', function () {
   try {
     d3.selectAll('svg >*').remove()
     disks = []
+    towers = []
     let bird = new Bird('bird')
     bird.drawBird()
     let numberDisk = $('#disk').val()

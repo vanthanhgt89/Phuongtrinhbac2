@@ -162,9 +162,9 @@ class GameEngine {
         .transition()
         .attr('transform', 'translate(' + newCooX + ',' + 0 + ')')
         .transition()
-        .attr('transform', 'translate(' + -cooX + ',' + 0 + ')')
-        .transition()
-        .attr('transform', 'translate(' + -cooX + ',' + cooY + ')')
+        .attr('transform', 'translate(' + -newCooX + ',' + 0 + ')')
+        // .transition()
+        // .attr('transform', 'translate(' + -cooX + ',' + cooY + ')')
 
        
       // Thay đổi vị trí đĩa  
